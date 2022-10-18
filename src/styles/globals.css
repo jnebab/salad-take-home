@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+  min-width: 100vh;
+  @apply bg-gradient-to-r from-black via-[#651FBE] to-[#D81FE8];
+}
